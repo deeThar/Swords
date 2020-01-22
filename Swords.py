@@ -13,6 +13,8 @@ ducking = pg.image.load("pics/Charakter_A_ducking.png")
 screenWidth = 1200
 
 clock = pg.time.Clock()
+
+
 #player
 class player(object):
     def __init__(self, x, y, width, height):
